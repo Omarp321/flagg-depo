@@ -1,6 +1,6 @@
 # flagg-depo
 
-| First Header  | Second Header |
-| ------------- | ------------- |
+| Omar  | Second Header |
+| ----------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
