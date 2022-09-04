@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <style>
+        </style>
+        <body>
+            <title>Flagg</title>
+            <h1>Hei</h1>
+            <canvas id="myCanvas" width="400" height="300" style="border:1px solid #d3d3d3;">
+                Your browser does not support the HTML canvas tag.
+            </canvas>
+
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.moveTo(150,300);
+                ctx.lineTo(150,150);
+                ctx.lineTo(300,150);
+                ctx.lineTo(300,50);
+                ctx.lineTo(150,50);
+                ctx.lineTo(150,150);
+                ctx.moveTo(200,150);
+                ctx.lineTo(200,50);
+                ctx.moveTo(150,100);
+                ctx.lineTo(300,100);
+                ctx.stroke();
+            </script>
+
+
+        </body>
+    </head>
+</html>
